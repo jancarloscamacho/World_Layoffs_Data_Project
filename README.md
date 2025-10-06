@@ -1,27 +1,7 @@
 # Global Layoff Data Cleaning & Preparation (MySQL)
 
-**Project Overview**  
+Project Overview**  
 This repository contains a SQL-based project where I cleaned, transformed, and prepared a global layoff dataset using MySQL. The goal was to take raw layoff data, resolve inconsistencies, remove duplicates, handle missing values, and produce a clean table ready for analysis.
-
----
-
-## 🗂️ Files & Structure
-
-| Filename                     | Purpose                                                                 |
-|------------------------------|-------------------------------------------------------------------------|
-| `01_create_tables.sql`       | Creates the base table schema for loading raw layoff data.              |
-| `02_data_cleaning.sql`       | Contains SQL statements to clean data: remove duplicates, handle nulls, standardize formats. |
-| `03_transformations.sql`     | Additional transformations (e.g. deriving new columns, filtering, staging). |
-| `04_final_table.sql`         | Creates the final cleaned version of the table (e.g. `layoffs_cleaned`). |
-| `05_analysis_queries.sql`    | Example queries on cleaned data to showcase insights or checks.          |
-| `README.md`                   | This documentation.                                                      |
-
----
-
-## 🛠️ Tools & Technologies
-
-- **MySQL** (version e.g. 8.0)  
-- MySQL client (Workbench)  
 
 ---
 
